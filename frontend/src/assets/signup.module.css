@@ -1,0 +1,97 @@
+.signUpContainer {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4ff; /* Light blue background */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.signUpHeading {
+  color: #003366; /* Dark blue for the heading */
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: cursive;
+}
+
+.signUpForm {
+  background-color: white; /* White background for the form */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px; /* Fixed width for the form */
+  transition: transform 0.3s ease; /* Animation for hover effect */
+}
+
+.signUpForm:hover {
+  transform: scale(1.02); /* Slightly enlarge the form on hover */
+}
+
+.input {
+  width: 100%; /* Full width for inputs */
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #003366; /* Dark blue border */
+  border-radius: 4px;
+  transition: border-color 0.3s ease; /* Animation for border color */
+}
+
+.input:focus {
+  border-color: #0056b3; /* Lighter blue on focus */
+  outline: none; /* Remove default outline */
+}
+
+.signUpButton {
+  background-color: #003366; /* Dark blue button */
+  color: white; /* White text */
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 20%; /* Full width for button */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Animation for hover effect */
+}
+
+.signUpButtonInsideForm{
+  background-color: #003366; /* Dark blue button */
+  color: white; /* White text */
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%; /* Full width for button */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Animation for hover effect */
+}
+
+.signUpButton:hover,.signUpButtonInsideForm:hover {
+  background-color: #0056b3; /* Lighter blue on hover */
+  transform: translateY(-2px); /* Slightly lift the button on hover */
+}
+
+.signUpButton:active,.signUpButtonInsideForm:active {
+  transform: translateY(0); /* Reset lift on click */
+}
+
+.signUpLabel {
+  display: block; /* Make label block to take full width */
+  margin: 10px 0 5px; /* Margin for spacing */
+  color: #003366; /* Dark blue for label */
+}
+
+.text {
+  text-align: center;
+  color: #003366; /* Dark blue for text */
+}
+
+.link {
+  color: #0056b3; /* Lighter blue for links */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #003366; /* Darker blue on hover */
+}
